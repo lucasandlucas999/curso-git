@@ -1,6 +1,6 @@
-def sum(*num):
-    return sum(num)
+def datos(nombre, apellido):
+    print("Tu nombre es " + nombre + " " + apellido)
     
-print (sum(2, 2, 2, 4))
-    
-
+nombre = input("Ingresa tu nombre: ")
+apellido = input("\nIngresa tu apellido: ")
+datos(nombre, apellido)
